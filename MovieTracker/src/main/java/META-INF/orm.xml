@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd">
+	<named-query name="Director.findAll">
+		<query>SELECT d FROM Director d</query>
+	</named-query>
+	<named-query name="Rate.findAll">
+		<query>SELECT r FROM Rate r</query>
+	</named-query>
+	<named-query name="Actor.findAll">
+		<query>SELECT a FROM Actor a</query>
+	</named-query>
+	<named-query name="Genre.findAll">
+		<query>SELECT g FROM Genre g</query>
+	</named-query>
+	<named-query name="Movie.findAll">
+		<query>SELECT m FROM Movie m</query>
+	</named-query>
+</entity-mappings>
